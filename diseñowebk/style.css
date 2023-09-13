@@ -1,0 +1,8 @@
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+    background: linear-gradient(20deg, rgba(57,140,198,1), #fff);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }

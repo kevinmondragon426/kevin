@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>inventario</title>
+</head>
+<body>
+    <div class="contenido" id="contenido">
+        <div class="contenido2">
+            <h1>formulario de inventario</h1>
+            <form>
+
+                <label for="utileria o alimentos">seleccione el tipo de insumo</label>
+                <select class="tipoinsumo" name="tipo de insumo" id="tipodeinsumo" aria-placeholder="seleccione una opcion " required>
+                    <option value="utilerio">utileria</option>
+                    <option value="alimentos">iluminación y sonido</option>
+                    <option value="alimentos">menaje</option>
+                    <option value="alimentos">bebidas</option>
+                </select><br>   
+
+                <label for="nombre producto" >Nombre del producto</label>
+                <input class="nombre" type="text" id="nombreproducto" name="nombre producto" placeholder="digite el nombre del producto" required><br>
+
+                <label for="id producto">ID del producto</label>
+                <input class="id" type="text" id="iddelproducto" name="id del producto" placeholder="digite un id"><br>
+
+                <label for="precio ">precio del producto</label>
+                <input class="precio" type="number" id="precio" name="precio" placeholder="$" required><br>
+
+                <label for="cantidad">cantidad</label>
+                <input class="cantidad" type="number" id="cantidad" name="cantidad" placeholder="digite la cantidad" required><br>
+
+                <label for="caracteristicas">ingrese las características del producto</label>
+                <textarea class="descripcion" name="caracteristicas" id="caracteristicas"  rows="1" placeholder="escriba una descripción breve del producto" required></textarea><br>
+    
+                <a href="envio.html">
+                <input class="enviar" type="button" value="enviar registro">
+                </a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
