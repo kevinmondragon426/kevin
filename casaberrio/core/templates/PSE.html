@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa Berrio</title>
+  <link rel="Icon" href="{% static 'img/LogoCasaBerrio (1).png' %}">
+  <link rel="stylesheet" href="{% static 'css/ventas.css' %}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+  <script src="js/ventas.js"></script>
+  <div class="container py-5">
+    
+    
+    <div class="row mb-4">
+      <div class="col-lg-8 mx-auto text-center">
+        <h1 class="display-4">Registro de Pago PSE</h1>
+        {% csrf_token %}
+      </div>
+    </div>
+   
+  
+  
+    <div class="row">
+      <div class="col-lg-7 mx-auto">
+        <div class="bg-white rounded-lg shadow-sm p-5">
+
+          <div class="nav bg-lighte nav-pills rounded-pill nav-fill mb-3">
+              <a  href="tarjetacd.html" class="nav-link  active rounded-pill">
+                                  <i class="fa fa-credit-card"></i>
+                                  Tarjeta de Credito y Debito 
+                              </a>
+          
+          </div>
+  
+          
+          <div class="tab-content">
+  
+     
+            <div id="nav-tab-card" class="tab-pane fade show active">
+
+              <form role="form" method="post">
+                {% csrf_token %}
+                {{ form }}
+  
+  
+                </div>
+                <input type="submit"  class="subscribe btn btn-primary btn-block rounded-pill shadow-sm" value="Confirmar Pago" onclick="alert('Contactando con su banco')">
+              </form>
+              
+            </div>
+  
+        </div>
+    </div>
+  </div>
+  
+</body>
+</html>

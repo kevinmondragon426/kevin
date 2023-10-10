@@ -1,0 +1,258 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/nosotros.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Casa Berrio</title>
+    <link rel="Icon" href="{% static 'img/LogoCasaBerrio (1).png' %}">
+</head>
+<body>
+    <header>
+        <div class="container"> 
+           <div class="row">
+                <div class="col-lg-2 justify-content-lg-start"><img src="/static/img/casaberrio.png" alt="casaberrio" height="100px"></div>
+                <div class="col-lg-8 d-flex justify-content-center p-4">
+                    <nav>
+                        <ul>
+                          <li><a href="home2.htmls">Inicio</a></li>
+                          <li><a href="nosotros.html">Nosotros</a></li>
+                          <li><a href="pqrs.html">PQRS</a></li>
+                        </ul>
+                    </nav>        
+                </div>
+                <div class="col-lg-2 p-4">
+                    <a href="https://es-la.facebook.com/EventosCasaBerrio/"><img src="/static/img/Facebook.png" alt="facebook" height="35px"></a>
+                    <a href="https://www.instagram.com/salonescasaberrio/?igshid=YmMyMTA2M2Y%3D"><img src="/static/img/instagram.png" alt="instagram" height="35px"></a>
+                    <a href="https://api.whatsapp.com/send?phone=573202929806&text=%C2%A1Hola%20Casa%20Berrio!%20Deseo%20mas%20informaci%C3%B3n%2C%20me%20gustar%C3%ADa%20hablar%20de%20un%20evento%20que%20quiero%20cotizar."><img src="/static/img/whatsapp.png" alt="whatsapp" height="35px"></a>
+                </div>
+           </div> 
+        </div>
+    </header>  
+    <main>
+        <section id="quienes-somos">
+            <div class="container" id="salon">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h5>¿Quienes Somos?</h5>
+                        <br>
+                        <p>Casa Berrio, líder en el alquiler de salones para eventos y recepciones cuenta con un convenio exclusivo con Casa de Banquetes Andrés Berrio, nuestro Catering de confianza.</p>
+                        <p>Somos una empresa dispuesta a brindar a nuestros clientes un servicio innovador para la realización de eventos familiares, sociales y empresariales en Bogotá, brindamos momentos especiales para que sean inolvidables y cumplan cada una de las necesidades de nuestros clientes.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div id="carouselExampleIndicators" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner" id="salones">
+                              <div class="carousel-item active">
+                                <img src="/static/img/salon.jpeg" class="d-block w-100" alt="salon">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="/static/img/salon1.jpeg" class="d-block w-100" alt="salon1">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="/static/img/salon2.jpeg" class="d-block w-100" alt="salon2">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="fondo-mision">
+            <div class="container" id="mision-vision">
+                <div class="row m-lg-5" >
+                    <div class="col-lg-6 d-flex justify-content-center m-auto" id="mision">
+                        <img src="/static/img/mision.png" alt="mision">
+                        <br>
+                        <h1>MISION</h1>
+                        <br>
+                        <p>Asesorar a nuestros clientes y darles acompañamiento en la realización de sus eventos y hacer de su fiesta el mejor recuerdo.</p>
+                    </div>
+                    <div class="col-lg-6 d-flex justify-content-center m-5" id="vision">
+                        <img src="/static/img/vision.png" alt="vision">
+                        <br>
+                        <h1>VISION</h1>
+                        <br>
+                        <p>Nos enfocamos en seguir siendo una empresa líder en el mercado de los eventos y mantenernos como la mejor opción de nuestros clientes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section>
+            <div class="row" id="salon3">
+                <div class="col-6 text-center">
+                    <img src="/static/img/salon3.png" alt="salon3">
+                </div>
+                <div class="col-6">
+                    <h5>Nuestro Valor Agregado</h5>
+                    <br>
+                    <ul>
+                        <li>Bahías de parqueo en los salones</li>
+                        <li>Pistas de baile LED en todos los salones</li>
+                        <li>Escaleras victorianas con salas de estar</li>
+                        <li>Salones propios de casa Berrio</li>
+                        <li>Nuestros salones e instalaciones son exclusivamente de Casa Berrio</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+        <section id="experiencia">
+           <div>
+                <br>
+                <h1>NUESTRA EXPERIENCIA</h1>
+                <br>
+                <p>Contamos 30 años  de experiencia y más de 6000 eventos realizados son garantía de calidad y cumplimiento para nuestros clientes.</p>
+           </div>
+           <div class="row">
+                <div class="col-12" id="carousel-container">
+                    <div id="carousel-experiencia" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="/static/img/salon4.jpeg" class="d-block w-100" alt="salon4">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/static/img/salon5.jpeg" class="d-block w-100" alt="salon5">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/static/img/salon6.jpeg" class="d-block w-100" alt="salon6">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/static/img/salon7.jpeg" class="d-block w-100" alt="salon7">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/static/img/salon8.jpeg" class="d-block w-100" alt="salon8">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/static/img/salon9.jpeg" class="d-block w-100" alt="salon9">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/static/img/salon10.jpeg" class="d-block w-100" alt="salon10">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-experiencia" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-experiencia" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                   </div>
+                </div>
+           </div>
+        </section>
+    </main>
+    <footer class="text-center text-lg-start" style="background: linear-gradient(90deg,rgba(57,140,198,1), rgb(57, 198, 111));
+    ">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+ 
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+          <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+          </a>
+      </div>
+      <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+  
+      <!-- Section: Links  -->
+      <section class="">
+      <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Casa Berrio
+              </h6>
+              <p>
+                  Aqui podras encontrar todas nuestras redes sociales,
+                  tanto como nuestras ubicaciones de las diferentes casas
+                  de eventos 
+              </p>
+          </div>
+          <!-- Grid column -->
+  
+    
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                  ENLACES ÚTILES
+              </h6>
+              <p>
+              <a href="reservas.html" class="text-reset">Reservas</a>
+              </p>
+              <p>
+              <a href="alquiler.html" class="text-reset">Alquileres</a>
+              </p>
+              <p>
+              <a href="nosotros.html" class="text-reset">Nosotros</a>
+              </p>
+              <p>
+              <a href="pqrs.html" class="text-reset">Ayuda</a>
+              </p>
+          </div>
+
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Contactos</h6>
+              <p><i class="fas fa-home me-3"></i> Bogotá, Colombia</p>
+              <p>
+              <i class="fas fa-envelope me-3"></i>
+              casaberrio@gmail.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          </div>
+      </div>
+      </section>
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="https://www.instagram.com/salonescasaberrio/?igshid=YmMyMTA2M2Y%3D">CasaBerrio.com</a>
+      </div>
+      
+  </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>

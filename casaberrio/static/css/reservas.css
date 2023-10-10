@@ -1,0 +1,24 @@
+body {
+    background: #b6ffff;
+}
+h1{
+    text-align: center;
+    color: rgb(1, 86, 182);
+}
+div{
+    margin: 20px;
+}
+#formulario{
+    background-color: #7cdaf9;
+    width: 500px;
+    height: 550px;
+    margin: auto;
+    border: 10px solid #004173;
+}
+#casaberrio{
+    width: 500px;
+    
+}
+h2{
+    text-align: center;
+}

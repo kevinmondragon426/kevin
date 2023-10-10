@@ -1,0 +1,171 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Casa Berrio</title>
+    <link rel="Icon" href="{% static 'img/LogoCasaBerrio (1).png' %}">
+</head>
+<body>
+    <header>
+        <div class="container"> 
+           <div class="row">
+                <div class="col-lg-2 justify-content-lg-start"><img src="/static/img/casaberrio.png" alt="casaberrio" height="100px"></div>
+                <div class="col-lg-8 d-flex justify-content-center p-4">
+                    <nav>
+                        <ul>
+                            <li><a href="home.html">Inicio</a></li>
+                            <li><a href="nosotros.html">Nosotros</a></li>
+                            <li><a href="pqrs.html">PQRS</a></li>
+                            <li><a href="login.html">Inicia Sesión</a></li>
+                        </ul>
+                    </nav>        
+                </div>
+                  
+           </div> 
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div class="container">
+                <h2>Nuestras Sedes</h2>
+                <br>
+                <div class="row">
+                    <div class="col-lg-4" id="santaisabel">
+                        <img src="/static/img/Santa Isabel.jpg" alt="santaisabel">
+                        <h1>Santa Isabel</h1>
+                        <p>Contamos con 5 salones perfectamente acondicionados para realizar tu evento perfecto.</p>
+                    </div>
+                    <div class="col-lg-4" id="teusaquillo">
+                        <img src="/static/img/Teusaquillo.jpg" alt="teusaquillo">
+                        <h1>Teusaquillo</h1>
+                        <p>Siempre acompañados del mejor equipo para ayudarles a que su velada sea inolvidable.</p>
+                    </div>
+                    <div class="col-lg-4" id="comuneros">
+                        <img src="/static/img/Comuneros.jpg" alt="comuneros">
+                        <h1>Comuneros</h1>
+                        <p>Somos lideres en el alquiler de salones para eventos y recepciones.</p>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <br>
+        <br>
+        <section id="acerca-de">
+            <div class="container">
+                <h2>Servicios</h2>
+                <p>Para que tu celebración sea lo que siempre has soñado queremos acompañarte y asesorarte en todo el proceso.</p>
+                <br>
+                <div class="row">
+                    <div class="col-lg-4" id="matrimonios">
+                        <img src="/static/img/matrimonios.png" alt="matrimonios">
+                        <h1>Celebracion de Matrimonios</h1>
+                        <p>¡¡Mereces lo que sueñas¡¡ Nos especializamos en crear experiencias para cada momento de tu vida.</p>
+                    </div>
+                    <div class="col-lg-4" id="a15años">
+                        <img src="/static/img/15años.png" alt="15años">
+                        <h1>Celebracion de 15 años</h1>
+                        <p>Con nosotros tu imaginación no tiene limites, déjanos construir junto a ti un evento magnifico, como siempre lo deseaste.</p>
+                    </div>
+                    <div class="col-lg-4" id="bautizos">
+                        <img src="/static/img/bautizos.png" alt="bautizos">
+                        <h1>Celebracion de Bautizos</h1>
+                        <p>Nos encargamos de todo, desde la planeación hasta la terminación de tu evento.</p>
+                    </div>
+                    <!--linea de abajo-->
+                    <div class="col-lg-4 mt-5" id="grados">
+                        <img src="/static/img/grados.png" alt="grados">
+                        <h1>Celebracion de Grados</h1>
+                        <p>Nos especializamos en crear experiencias para cada momento de tu vida. Diseñamos y ejecutamos  tus eventos.</p>
+                    </div>
+                    <div class="col-lg-4 mt-auto" id="cumpleaños">
+                        <img src="/static/img/cumpleaños.png" alt="cumpleaños">
+                        <h1>Celebracion de Cumpleaños</h1>
+                        <p>El evento que desees, lo organizamos para ti, con el mejor servicio y logística.</p>
+                    </div>
+                    <div class="col-lg-4 mt-auto" id="despedidas">
+                        <img src="/static/img/despedidas.png" alt="despedidas">
+                        <h1>Despedidas Empresariales</h1>
+                        <p>Brindamos el más destacado portafolio de servicios, con la seguridad, el compromiso que nos caracteriza.</p>
+                    </div>
+                </div> 
+            </div>
+        </section>
+    </main>
+     <!-- Footer -->
+    <footer class="text-center text-lg-start" style="  background: linear-gradient(90deg,rgba(57,140,198,1), rgb(57, 198, 111));
+    ">
+       
+    
+        <!-- Section: Links  -->
+        <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Casa Berrio
+                </h6>
+                <p>
+                    Aqui podras encontrar todas nuestras redes sociales,
+                    tanto como nuestras ubicaciones de las diferentes casas
+                    de eventos 
+                </p>
+            </div>
+            <!-- Grid column -->
+    
+      
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                    ENLACES ÚTILES
+                </h6>
+                <p>
+                <a href="reservas.html" class="text-reset">Reservas</a>
+                </p>
+                <p>
+                <a href="alquiler.html" class="text-reset">Alquileres</a>
+                </p>
+                <p>
+                <a href="nosotros.html" class="text-reset">Nosotros</a>
+                </p>
+                <p>
+                <a href="pqrs.html" class="text-reset">Ayuda</a>
+                </p>
+            </div>
+
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4">Contactos</h6>
+                <p><i class="fas fa-home me-3"></i> Bogotá, Colombia</p>
+                <p>
+                <i class="fas fa-envelope me-3"></i>
+                casaberrio@gmail.com
+                </p>
+                <p><i class="fas fa-phone me-3"><a id="whatsapp" href="https://api.whatsapp.com/send?phone=573202929806&text=%C2%A1Hola%20Casa%20Berrio!%20Deseo%20mas%20informaci%C3%B3n%2C%20me%20gustar%C3%ADa%20hablar%20de%20un%20evento%20que%20quiero%20cotizar."><img src="/static/img/whatsapp.png" alt="whatsapp" height="35px">whatsapp</a>
+                </p>
+            </div>
+            </div>
+        </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);"> <!-- Right -->
+            <div class="col-lg-2 p-4">
+                <a href="https://es-la.facebook.com/EventosCasaBerrio/"><img src="/static/img/Facebook.png" alt="facebook" height="35px"></a>
+                <a href="https://www.instagram.com/salonescasaberrio/?igshid=YmMyMTA2M2Y%3D"><img src="/static/img/instagram.png" alt="instagram" height="35px"></a>
+            </div>
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="https://www.instagram.com/salonescasaberrio/?igshid=YmMyMTA2M2Y%3D">CasaBerrio.com</a>
+        </div>
+        
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

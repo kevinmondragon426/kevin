@@ -1,0 +1,343 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background: linear-gradient(90deg,rgba(57,140,198,1), rgb(57, 198, 111));
+    color: #ffffff;
+    text-align: center;
+    padding: 15px ;
+}
+
+#redes{
+    text-align: end;
+}
+
+#cabeza{
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+    text-decoration: none;
+}
+
+nav li:hover{
+    text-decoration: underline;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main {
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+#inicio{
+    text-align: center;
+}
+
+#santaisabel{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 1px solid #ccc;
+    max-width: 400px; 
+    margin: 0 auto; 
+    border-radius: 10px;
+    font-size: 20px;  
+    height: 480px;
+    transition: box-shadow 0.3s;
+    box-shadow: 2px 2px 10px 8px rgba(0, 0, 0, 0.5)
+}
+
+#santaisabel:hover {
+    box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.5); 
+}
+
+#santaisabel h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#santaisabel img{
+    max-width: 400px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#teusaquillo{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 1px solid #ccc;
+    max-width: 400px; 
+    margin: 0 auto; 
+    border-radius: 10px;
+    font-size: 20px;  
+    height: 480px;
+    padding-right: 10px;
+    transition: box-shadow 0.3s;
+    box-shadow: 2px 2px 10px 8px rgba(0, 0, 0, 0.5)
+}
+
+#teusaquillo:hover {
+    box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.5); 
+}
+
+#teusaquillo h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#teusaquillo img{
+    max-width: 400px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#comuneros{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 1px solid #ccc;
+    max-width: 400px; 
+    margin: 0 auto; 
+    border-radius: 10px;
+    font-size: 20px;  
+    height: 480px;
+    transition: box-shadow 0.3s;
+    box-shadow: 2px 2px 10px 8px rgba(0, 0, 0, 0.5)
+}
+
+#comuneros:hover {
+    box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.5); 
+}
+
+#comuneros h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#comuneros img{
+    max-width: 400px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#acerca-de{
+    text-align: center;
+}
+
+#matrimonios{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 1px solid #ccc;
+    max-width: 400px; 
+    margin: 0 auto; 
+    border-radius: 10px;
+    font-size: 20px;  
+    height: 450px;
+    transition: box-shadow 0.3s;
+    box-shadow: 2px 2px 10px 8px rgba(0, 0, 0, 0.5)
+}
+
+#matrimonios:hover {
+    box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.5); 
+}
+
+#matrimonios h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#matrimonios img{
+    max-width: 400px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#a15años{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 1px solid #ccc;
+    max-width: 400px; 
+    margin: 0 auto; 
+    border-radius: 10px;
+    font-size: 20px;  
+    height: 450px;
+    transition: box-shadow 0.3s;
+    box-shadow: 2px 2px 10px 8px rgba(0, 0, 0, 0.5)
+}
+
+#a15años:hover {
+    box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.5); 
+}
+
+#a15años h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#a15años img{
+    max-width: 400px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#bautizos{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 1px solid #ccc;
+    max-width: 400px; 
+    margin: 0 auto; 
+    border-radius: 10px;
+    font-size: 20px;  
+    height: 450px;
+    transition: box-shadow 0.3s;
+    box-shadow: 2px 2px 10px 8px rgba(0, 0, 0, 0.5)
+}
+
+#bautizos:hover {
+    box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.5); 
+}
+
+#bautizos h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#bautizos img{
+    max-width: 400px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#grados{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 1px solid #ccc;
+    max-width: 400px; 
+    margin: 0 auto; 
+    border-radius: 10px;
+    font-size: 20px;  
+    height: 450px;
+    transition: box-shadow 0.3s;
+    box-shadow: 2px 2px 10px 8px rgba(0, 0, 0, 0.5)
+}
+
+#grados:hover {
+    box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.5); 
+}
+
+#grados h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#grados img{
+    max-width: 400px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#cumpleaños{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 1px solid #ccc;
+    max-width: 400px; 
+    margin: 0 auto; 
+    border-radius: 10px;
+    font-size: 20px;  
+    height: 450px;
+    transition: box-shadow 0.3s;
+    box-shadow: 2px 2px 10px 8px rgba(0, 0, 0, 0.5)
+}
+
+#cumpleaños:hover {
+    box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.5); 
+}
+
+#cumpleaños h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#cumpleaños img{
+    max-width: 400px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+#despedidas{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 1px solid #ccc;
+    max-width: 400px; 
+    margin: 0 auto; 
+    border-radius: 10px;
+    font-size: 20px;  
+    height: 450px;
+    transition: box-shadow 0.3s;
+    box-shadow: 2px 2px 10px 8px rgba(0, 0, 0, 0.5)
+}
+
+#despedidas:hover {
+    box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.5); 
+}
+
+#despedidas h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#despedidas img{
+    max-width: 400px;
+    padding-bottom: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+footer {
+    background: linear-gradient(90deg,rgba(57,140,198,1), rgb(57, 198, 111));
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#whatsapp {
+    color: white;
+    text-decoration: none;
+}

@@ -1,0 +1,111 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/reserva.css' %}">
+    <title>Reservas</title>
+    <link rel="icon" href="{% static 'img/LogoCasaBerrio (1).png' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <div class="container"> 
+            <div class="row">
+                <div class="col-lg-2 justify-content-lg-start"><img src="/static/img/casaberrio.png" alt="casaberrio" height="100px"></div>
+                <div class="col-lg-8 d-flex justify-content-center p-4">
+                    <nav>
+                        <ul>
+                            <li><a href="home2.html">Inicio</a></li>
+                            <li><a href="nosotros.html">Nosotros</a></li>
+                            <li><a href="pqrs.html">PQRS</a></li>
+                            <li><a href="productos.html">Reservas</a></li>
+                            <li><a href="alquiler.html">Alquiler</a></li>
+                            <li><a href="home.html">Cerrar sesión</a></li>
+                        </ul>
+                    </nav>        
+                </div>
+           </div> 
+        </div>
+    </header>
+    <div class="div1 fadeInDown">
+        <div class="div2" style="width: 100%;">
+            <div class="div-div">
+                <img src="{% static 'img/casaberrio.png' %}" alt="User Icon" class="imagen-div">
+            </div>
+            <form method="post" class="div-form">
+                {% csrf_token %}
+                <div class="form-group">
+                    {{ form.name.label_tag }}
+                    {{ form.name }}
+                </div>
+                
+                <div class="form-group">
+                    {{ form.lastname.label_tag }}
+                    {{ form.lastname }}
+                </div>
+                
+                
+                <div class="form-group">
+                    {{ form.email.label_tag }}
+                    {{ form.email }}
+                </div>
+                    
+                <div class="form-group">
+                    {{ form.phone.label_tag }}
+                    {{ form.phone }}
+                </div>
+                
+                <div class="form-group">
+                    {{ form.gender.label_tag }}
+                    {{ form.gender }}
+                </div>
+
+                <div class="form-group">
+                    {{ form.event_date.label_tag }}
+                    {{ form.event_date }}
+                </div>
+
+                <div class="form-group">
+                    {{ form.event_start_time.label_tag }}
+                    {{ form.event_start_time }}
+                </div>
+
+                <div class="form-group">
+                    {{ form.theme.label_tag }}
+                    {{ form.theme }}
+                </div>
+
+                <div class="form-group">
+                    {{ form.description.label_tag }}
+                    {{ form.description }}
+                </div>
+
+                <div class="form-group">
+                    {{ form.special_need.label_tag }}
+                    {{ form.special_need }}
+                </div>
+
+                <div class="form-group">
+                    {{ form.event_type.label_tag }}
+                    {{ form.event_type }}
+                </div>
+
+                <div class="form-group">
+                    {{ form.campus.label_tag }}
+                    {{ form.campus }}
+                </div>
+
+                <div class="form-group">
+                    {{ form.lounge.label_tag }}
+                    {{ form.lounge }}
+                </div>
+
+
+                <input type="submit" class="btn btn-primary" value="Enviar Reserva" onclick="alert('Su reserva se ha registrado')" required>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
